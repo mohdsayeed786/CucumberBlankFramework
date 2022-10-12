@@ -1,0 +1,17 @@
+[INFO ] 2022-10-13 00:33:27.939 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 00:33:27.985 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 00:33:29.743 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 00:33:30.167 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 00:33:34.436 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 00:33:34.458 [main] StepDef - ***** Page title verification method executed ***** 
+[INFO ] 2022-10-13 00:33:36.063 [main] StepDef - ***** User click on LogOut Link method executed ***** 
+[WARN ] 2022-10-13 00:33:36.076 [main] StepDef - ***** page title matched ***** 
+[INFO ] 2022-10-13 00:33:36.077 [main] StepDef - ***** Login Page Title verification method executed ***** 
+[INFO ] 2022-10-13 00:33:36.750 [main] StepDef - ***** Close Browser method executed ***** 
+[INFO ] 2022-10-13 00:33:36.754 [main] StepDef - ***** TearDown method executed ***** 
+[INFO ] 2022-10-13 00:33:40.218 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 00:33:40.220 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 00:33:44.818 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 00:33:45.366 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 00:33:46.692 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 00:33:46.946 [main] StepDef - ***** TearDown method executed ***** 
