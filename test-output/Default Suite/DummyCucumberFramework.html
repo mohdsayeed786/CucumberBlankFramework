@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>DummyCucumberFramework</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Oct 12 01:17:31 IST 2022</td>
+<td>Started on:</td><td>Wed Oct 12 23:45:54 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1342 ms)</td>
+<tr><td>Total time:</td><td>30 seconds (30479 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,30 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.Run.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Run<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid and invalid login credentials using Data Driven Testing", "Login Page functionality"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at StepDefinition.StepDef.page_title_should_be(StepDef.java:44)
+	at ✽.Page title should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/mohd.sayeed/OneDrive%20-%20Provana%20India%20Pvt.%20Ltd/IConnect247/Automation%20Training/Framework/DummyCucumberFramework/./Features/LoginFeatures.feature:20)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace803149788", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace803149788'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at StepDefinition.StepDef.page_title_should_be(StepDef.java:44)
+	at ✽.Page title should be &quot;Dashboard / nopCommerce administration&quot;(file:///C:/Users/mohd.sayeed/OneDrive%20-%20Provana%20India%20Pvt.%20Ltd/IConnect247/Automation%20Training/Framework/DummyCucumberFramework/./Features/LoginFeatures.feature:20)
+</pre></div></td>
+<td>4</td>
+<td>TestRunner.Run@2173f6d9</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,9 +99,9 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.Run.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Run<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Login Page functionality"</td>
+<td title='TestRunner.Run.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Run<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid and invalid login credentials using Data Driven Testing", "Login Page functionality"</td>
 <td></td>
-<td>0</td>
+<td>24</td>
 <td>TestRunner.Run@2173f6d9</td></tr>
 </table><p>
 </body>
