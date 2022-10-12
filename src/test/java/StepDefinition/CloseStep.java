@@ -8,6 +8,7 @@ public class CloseStep extends BaseClass {
     @Then("close browser")
     public void close_browser() {
         driver.close();
+        log.info("***** Close Browser method executed ***** ");
 
     }
 }

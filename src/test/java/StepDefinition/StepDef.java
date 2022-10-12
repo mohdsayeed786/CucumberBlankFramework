@@ -2,10 +2,12 @@ package StepDefinition;
 
 import PageObject.LoginPage;
 import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,14 +18,22 @@ import java.io.IOException;
 
 public class StepDef extends BaseClass {
 
+    /////// Method need to executed before execution starts //////
+
+    @Before
+    public void setUp() {
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        log = LogManager.getLogger("StepDef");
+        log.info("***** Setup method executed ***** ");
+    }
 
     ///// Methods for Login Feature file page /////
 
     @Given("User launch chrome browser")
     public void user_launch_chrome_browser() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
         LoginPg = new LoginPage(driver);
+        log.info("***** User launch chrome browser method executed ***** ");
 
     }
 
@@ -31,6 +41,7 @@ public class StepDef extends BaseClass {
     @When("User open URL {string}")
     public void user_open_url(String url) {
         driver.get(url);
+        log.info("***** User open URL method executed ***** ");
 
     }
 
@@ -43,6 +54,7 @@ public class StepDef extends BaseClass {
         } else {
             Assert.assertTrue(false);
         }
+        log.info("***** Page title verification method executed ***** ");
 
     }
 
@@ -50,6 +62,7 @@ public class StepDef extends BaseClass {
     @When("User click on LogOut Link")
     public void user_click_on_log_out_link() {
         LoginPg.ClickLogoutButton();
+        log.info("***** User click on LogOut Link method executed ***** ");
 
     }
 
@@ -59,9 +72,12 @@ public class StepDef extends BaseClass {
         String ActualTitle = driver.getTitle();
         if (ActualTitle.equals(ExpectedTitle)) {
             Assert.assertTrue(true);
+            log.warn("***** page title matched ***** ");
         } else {
             Assert.assertTrue(false);
+            log.warn("***** page title not matched ***** ");
         }
+        log.info("***** Login Page Title verification method executed ***** ");
 
     }
 
@@ -70,6 +86,7 @@ public class StepDef extends BaseClass {
     public void user_enter_email_as_and_password_as(String email, String password) {
         LoginPg.EnterEmail(email);
         LoginPg.EnterPassword(password);
+        log.info("***** User enter Email and Password method executed ***** ");
 
     }
 
@@ -77,9 +94,11 @@ public class StepDef extends BaseClass {
     @Then("user click on Login Button")
     public void user_click_on_login_button() {
         LoginPg.ClickLoginButton();
+        log.info("***** user click on Login Button method executed ***** ");
 
     }
 
+    /////// Method need to be executed after execution is over //////
     @After
     public void tearDown(Scenario sc) {
         System.out.println("************ Tear Down Method called ***********");
@@ -105,6 +124,7 @@ public class StepDef extends BaseClass {
 
         }
         //driver.close();
+        log.info("***** Failed Scenario Screenshot method executed ***** ");
     }
 
 
