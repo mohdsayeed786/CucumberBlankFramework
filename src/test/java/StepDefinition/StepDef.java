@@ -1,6 +1,7 @@
 package StepDefinition;
 
 import PageObject.LoginPage;
+import Utilities.ReadConfig;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -11,6 +12,8 @@ import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
 import java.io.File;
@@ -22,10 +25,31 @@ public class StepDef extends BaseClass {
 
     @Before
     public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
         log = LogManager.getLogger("StepDef");
         log.info("***** Setup method executed ***** ");
+
+        readConfig = new ReadConfig();
+        String browser = readConfig.getBrowser();
+        switch (browser.toLowerCase()) {
+            case "chrome":
+                WebDriverManager.chromedriver().setup();
+                driver = new ChromeDriver();
+                break;
+
+            case "firefox":
+                WebDriverManager.firefoxdriver().setup();
+                driver = new FirefoxDriver();
+                break;
+
+            case "msedge":
+                WebDriverManager.edgedriver().setup();
+                driver = new EdgeDriver();
+                break;
+            default:
+                driver = null;
+                break;
+
+        }
     }
 
     ///// Methods for Login Feature file page /////
@@ -95,6 +119,11 @@ public class StepDef extends BaseClass {
     public void user_click_on_login_button() {
         LoginPg.ClickLoginButton();
         log.info("***** user click on Login Button method executed ***** ");
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 

@@ -15,3 +15,110 @@
 [INFO ] 2022-10-13 00:33:45.366 [main] StepDef - ***** User enter Email and Password method executed ***** 
 [INFO ] 2022-10-13 00:33:46.692 [main] StepDef - ***** user click on Login Button method executed ***** 
 [INFO ] 2022-10-13 00:33:46.946 [main] StepDef - ***** TearDown method executed ***** 
+[INFO ] 2022-10-13 13:47:09.133 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 13:47:13.287 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 13:47:14.906 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 13:47:15.097 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 13:47:19.099 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 13:47:19.150 [main] StepDef - ***** Page title verification method executed ***** 
+[INFO ] 2022-10-13 13:47:20.646 [main] StepDef - ***** User click on LogOut Link method executed ***** 
+[WARN ] 2022-10-13 13:47:20.653 [main] StepDef - ***** page title matched ***** 
+[INFO ] 2022-10-13 13:47:20.654 [main] StepDef - ***** Login Page Title verification method executed ***** 
+[INFO ] 2022-10-13 13:47:20.745 [main] StepDef - ***** Close Browser method executed ***** 
+[INFO ] 2022-10-13 13:47:20.748 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 13:47:20.771 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 13:47:22.527 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 13:47:23.938 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 13:47:24.133 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 13:47:25.153 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 13:47:25.301 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 22:23:14.762 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 22:23:31.066 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 22:23:32.691 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 22:23:32.985 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 22:23:37.689 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 22:23:37.710 [main] StepDef - ***** Page title verification method executed ***** 
+[INFO ] 2022-10-13 22:23:40.313 [main] StepDef - ***** User click on LogOut Link method executed ***** 
+[WARN ] 2022-10-13 22:23:40.328 [main] StepDef - ***** page title matched ***** 
+[INFO ] 2022-10-13 22:23:40.329 [main] StepDef - ***** Login Page Title verification method executed ***** 
+[INFO ] 2022-10-13 22:23:40.452 [main] StepDef - ***** Close Browser method executed ***** 
+[INFO ] 2022-10-13 22:23:40.453 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 22:23:40.487 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 22:23:43.931 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 22:23:44.537 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 22:23:44.840 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 22:23:45.287 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 22:23:45.517 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 22:24:25.581 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 22:24:34.422 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 22:24:35.115 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 22:24:35.239 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 22:24:41.244 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 22:24:41.254 [main] StepDef - ***** Page title verification method executed ***** 
+[INFO ] 2022-10-13 22:24:42.654 [main] StepDef - ***** User click on LogOut Link method executed ***** 
+[WARN ] 2022-10-13 22:24:42.668 [main] StepDef - ***** page title matched ***** 
+[INFO ] 2022-10-13 22:24:42.668 [main] StepDef - ***** Login Page Title verification method executed ***** 
+[INFO ] 2022-10-13 22:24:44.224 [main] StepDef - ***** Close Browser method executed ***** 
+[INFO ] 2022-10-13 22:24:44.228 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 22:24:44.258 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 22:24:48.378 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 22:24:49.938 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 22:24:50.060 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 22:24:51.386 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 22:24:51.571 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 22:26:14.552 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 22:26:18.803 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 22:26:19.600 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 22:26:19.713 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 22:26:23.517 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 22:26:23.532 [main] StepDef - ***** Page title verification method executed ***** 
+[INFO ] 2022-10-13 22:26:23.775 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 22:26:23.822 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 22:26:26.926 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 22:26:27.557 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 22:26:27.697 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 22:26:28.253 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 22:26:28.341 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 22:27:08.942 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 22:27:13.020 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 22:27:14.129 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 22:27:14.253 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 22:27:16.058 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 22:27:16.066 [main] StepDef - ***** Page title verification method executed ***** 
+[INFO ] 2022-10-13 22:27:16.237 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 22:27:16.256 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 22:27:19.239 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 22:27:20.650 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 22:27:20.788 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 22:27:22.013 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 22:27:22.100 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 22:27:40.783 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 22:27:46.187 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 22:27:47.893 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 22:27:48.099 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 22:27:53.020 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 22:27:53.038 [main] StepDef - ***** Page title verification method executed ***** 
+[INFO ] 2022-10-13 22:27:54.429 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 22:27:54.474 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 22:27:55.970 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 22:27:56.610 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 22:27:56.827 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 22:27:57.316 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 22:27:57.477 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 22:30:14.842 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 22:30:17.937 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 22:30:19.882 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 22:30:20.117 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 22:30:24.476 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 22:30:26.509 [main] StepDef - ***** Page title verification method executed ***** 
+[INFO ] 2022-10-13 22:30:28.174 [main] StepDef - ***** User click on LogOut Link method executed ***** 
+[WARN ] 2022-10-13 22:30:28.189 [main] StepDef - ***** page title matched ***** 
+[INFO ] 2022-10-13 22:30:28.189 [main] StepDef - ***** Login Page Title verification method executed ***** 
+[INFO ] 2022-10-13 22:30:28.383 [main] StepDef - ***** Close Browser method executed ***** 
+[INFO ] 2022-10-13 22:30:28.386 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
+[INFO ] 2022-10-13 22:30:28.435 [main] StepDef - ***** Setup method executed ***** 
+[INFO ] 2022-10-13 22:30:29.978 [main] StepDef - ***** User launch chrome browser method executed ***** 
+[INFO ] 2022-10-13 22:30:31.777 [main] StepDef - ***** User open URL method executed ***** 
+[INFO ] 2022-10-13 22:30:32.057 [main] StepDef - ***** User enter Email and Password method executed ***** 
+[INFO ] 2022-10-13 22:30:33.227 [main] StepDef - ***** user click on Login Button method executed ***** 
+[INFO ] 2022-10-13 22:30:35.375 [main] StepDef - ***** Failed Scenario Screenshot method executed ***** 
