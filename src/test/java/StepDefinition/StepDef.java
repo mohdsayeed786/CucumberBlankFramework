@@ -30,25 +30,17 @@ public class StepDef extends BaseClass {
 
         readConfig = new ReadConfig();
         String browser = readConfig.getBrowser();
-        switch (browser.toLowerCase()) {
-            case "chrome":
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
-                break;
-
-            case "firefox":
-                WebDriverManager.firefoxdriver().setup();
-                driver = new FirefoxDriver();
-                break;
-
-            case "msedge":
-                WebDriverManager.edgedriver().setup();
-                driver = new EdgeDriver();
-                break;
-            default:
-                driver = null;
-                break;
-
+        if ("chrome".equals(browser.toLowerCase())) {
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+        } else if ("firefox".equals(browser.toLowerCase())) {
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
+        } else if ("msedge".equals(browser.toLowerCase())) {
+            WebDriverManager.edgedriver().setup();
+            driver = new EdgeDriver();
+        } else {
+            driver = null;
         }
     }
 
