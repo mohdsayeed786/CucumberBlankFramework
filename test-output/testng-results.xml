@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="14159" started-at="2022-10-13T23:14:06 IST" finished-at="2022-10-13T23:14:20 IST">
+  <suite name="Default Suite" duration-ms="44347" started-at="2022-10-14T20:42:27 IST" finished-at="2022-10-14T20:43:12 IST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Run@2173f6d9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Run@7a187f14]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="DummyCucumberFramework" duration-ms="14159" started-at="2022-10-13T23:14:06 IST" finished-at="2022-10-13T23:14:20 IST">
+    <test name="DummyCucumberFramework" duration-ms="44347" started-at="2022-10-14T20:42:27 IST" finished-at="2022-10-14T20:43:12 IST">
       <class name="TestRunner.Run">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.Run@2173f6d9]" name="setUpClass" is-config="true" duration-ms="613" started-at="2022-10-13T23:14:06 IST" finished-at="2022-10-13T23:14:07 IST">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.Run@7a187f14]" name="setUpClass" is-config="true" duration-ms="858" started-at="2022-10-14T20:42:27 IST" finished-at="2022-10-14T20:42:28 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@26586b74]]>
+                <![CDATA[org.testng.TestRunner@5e9bbd9d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Run@2173f6d9]" name="runScenario" duration-ms="13458" started-at="2022-10-13T23:14:07 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-13T23:14:20 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Run@7a187f14]" name="runScenario" duration-ms="11503" started-at="2022-10-14T20:42:28 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-14T20:42:40 IST">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,54 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.Run@2173f6d9]" name="tearDownClass" is-config="true" duration-ms="55" started-at="2022-10-13T23:14:20 IST" finished-at="2022-10-13T23:14:20 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Run@7a187f14]" name="runScenario" duration-ms="25955" started-at="2022-10-14T20:42:40 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-14T20:43:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid and invalid login credentials using Data Driven Testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Run@7a187f14]" name="runScenario" duration-ms="5676" started-at="2022-10-14T20:43:06 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-14T20:43:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid and invalid login credentials using Data Driven Testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at StepDefinition.StepDef.page_title_should_be(StepDef.java:72)
+at ✽.Page title should be "Dashboard / nopCommerce administration"(file:///C:/Users/mohd.sayeed/OneDrive%20-%20Provana%20India%20Pvt.%20Ltd/IConnect247/Automation%20Training/Framework/DummyCucumberFramework/./Features/LoginFeatures.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.Run@7a187f14]" name="tearDownClass" is-config="true" duration-ms="312" started-at="2022-10-14T20:43:11 IST" finished-at="2022-10-14T20:43:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

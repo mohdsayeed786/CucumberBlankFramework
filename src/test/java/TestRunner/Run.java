@@ -8,8 +8,8 @@ import io.cucumber.testng.CucumberOptions;
         glue = "StepDefinition",
         dryRun = false,  //mapping of feature file with step definition in case of True
         monochrome = true,
-        tags = "@Regression",
-        plugin = {"pretty", "html:Target/cucumber-reports/reports1.html"}
+        tags = "@Regression or @Sanity",
+        plugin = {"pretty", "html:Target/cucumber-reports/reports1.html", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 
 )
 

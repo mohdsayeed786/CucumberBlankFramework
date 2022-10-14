@@ -3,6 +3,7 @@ package StepDefinition;
 import PageObject.LoginPage;
 import Utilities.ReadConfig;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
@@ -146,6 +147,15 @@ public class StepDef extends BaseClass {
         }
         //driver.close();
         log.info("***** Failed Scenario Screenshot method executed ***** ");
+    }
+
+    //Extent Report
+    @AfterStep
+    public void addScreenshot(Scenario scenario){
+        if(scenario.isFailed()){
+            final byte[] screenshot =((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot, "image/png", scenario.getName());
+        }
     }
 
 

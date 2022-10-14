@@ -1,1 +1,6 @@
 TestRunner\Run.class
+Utilities\ReadConfig.class
+PageObject\LoginPage.class
+StepDefinition\BaseClass.class
+StepDefinition\CloseStep.class
+StepDefinition\StepDef.class
